@@ -7,6 +7,9 @@
 
 # probaverse <img src="man/figures/logo.png" align="right" height="139" alt="" />
 
+[![R-CMD-check](https://github.com/probaverse/probaverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/probaverse/probaverse/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/probaverse/probaverse/graph/badge.svg)](https://app.codecov.io/gh/probaverse/probaverse)
 <!-- badges: end -->
 
 The probaverse is a suite of packages that facilitate working with
