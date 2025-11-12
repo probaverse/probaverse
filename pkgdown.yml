@@ -1,0 +1,8 @@
+pandoc: 3.1.11
+pkgdown: 2.2.0
+pkgdown_sha: ~
+articles: {}
+last_built: 2025-11-12T22:20Z
+urls:
+  reference: https://probaverse.probaverse.com/reference
+  article: https://probaverse.probaverse.com/articles
