@@ -13,7 +13,9 @@ The 'probaverse' is a suite of packages designed to facilitate creating advanced
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://probaverse.com/}
+  \item \url{https://probaverse.probaverse.com/}
+  \item \url{https://github.com/probaverse/probaverse}
+  \item \url{https://probaverse.github.io/probaverse/}
 }
 
 }
