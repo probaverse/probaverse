@@ -1,31 +1,29 @@
 Package: probaverse
-Title: Install and load the probaverse packages
+Title: Install and Load the 'Probaverse' Packages
 Version: 0.0.0.9000
 Authors@R: c(
     person("Vincenzo", "Coia", , "vincenzo.coia@gmail.com", 
-           role = c("aut", "cre"))
+           role = c("aut", "cre", "cph"))
     )
-Description: The probaverse is a suite of packages to facilitate
-    working with probability distributions in R. Each package
-    focusses on a specific task that's large enough for the scope
-    of an individual package. Because the packages are most useful
-    when loaded together, the `probaverse` package exists for loading
-    these packages in one swoop.
+Description: The 'probaverse' is a suite of packages designed to facilitate
+    creating advanced statistical models through probability distributions.
+    These packages work best when loaded together because they share a common
+    design philosophy and focus on different aspects of developing statistical
+    models. Inspired by the 'tidyverse' package, the 'probaverse' package
+    makes it easy to load the entire suite of 'probaverse' packages together.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Imports: 
-    distionary (== 0.0.2),
+    distionary,
     distplyr,
-    famish,
-    uscore
+    famish
 Remotes: 
-    probaverse/distionary@v0.0.2,
+    probaverse/distionary,
     probaverse/distplyr,
-    probaverse/famish,
-    probaverse/uscore
-URL: https://probaverse.com/
+    probaverse/famish
+URL: https://probaverse.probaverse.com/, https://github.com/probaverse/probaverse
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

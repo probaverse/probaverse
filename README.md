@@ -10,6 +10,8 @@
 [![R-CMD-check](https://github.com/probaverse/probaverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/probaverse/probaverse/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/probaverse/probaverse/graph/badge.svg)](https://app.codecov.io/gh/probaverse/probaverse)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 <!-- badges: end -->
 
 The probaverse is a suite of packages that facilitate working with
@@ -54,7 +56,6 @@ library(probaverse)
 
 ## Code of Conduct
 
-Please note that the distionary project is released with a [Contributor
-Code of
-Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+Please note that the probaverse project is released with a [Code of
+Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
