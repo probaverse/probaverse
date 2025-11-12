@@ -40,11 +40,16 @@ remotes::install_github("probaverse/probaverse")
   distributions.
 - [`famish`](https://famish.probaverse.com): estimate probability
   distribution from data.
-- `uscore` (being phased out for `gristmill`: data-based probability
-  distributions).
+
+## Future Goals
 
 Eventually, `couple` will be added to the mix, too, for building
 dependence models with copulas.
+
+`gristmill` will enable data-based probability distributions, expanding
+beyond the Empirical distribution made available through `distionary`.
+
+## Usage
 
 Load the probaverse packages like so.
 
@@ -55,5 +60,5 @@ library(probaverse)
 ## Code of Conduct
 
 Please note that the probaverse project is released with a [Code of
-Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
-By contributing to this project, you agree to abide by its terms.
+Conduct](CODE_OF_CONDUCT.html). By contributing to this project, you
+agree to abide by its terms.

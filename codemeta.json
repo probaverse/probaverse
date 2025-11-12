@@ -1,0 +1,81 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "probaverse",
+  "description": "The 'probaverse' is a suite of packages designed to facilitate creating advanced statistical models through probability distributions. These packages work best when loaded together because they share a common design philosophy and focus on different aspects of developing statistical models. Inspired by the 'tidyverse' package, the 'probaverse' package makes it easy to load the entire suite of 'probaverse' packages together.",
+  "name": "probaverse: Install and Load the 'Probaverse' Packages",
+  "relatedLink": ["https://probaverse.probaverse.com/", "https://probaverse.github.io/probaverse/"],
+  "codeRepository": "https://github.com/probaverse/probaverse",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.1.0",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.4.3 (2025-02-28)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Vincenzo",
+      "familyName": "Coia",
+      "email": "vincenzo.coia@gmail.com"
+    }
+  ],
+  "copyrightHolder": [
+    {
+      "@type": "Person",
+      "givenName": "Vincenzo",
+      "familyName": "Coia",
+      "email": "vincenzo.coia@gmail.com"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Vincenzo",
+      "familyName": "Coia",
+      "email": "vincenzo.coia@gmail.com"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "version": ">= 3.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    }
+  ],
+  "softwareRequirements": {
+    "1": {
+      "@type": "SoftwareApplication",
+      "identifier": "distionary",
+      "name": "distionary",
+      "sameAs": "https://github.com/probaverse/distionary"
+    },
+    "2": {
+      "@type": "SoftwareApplication",
+      "identifier": "distplyr",
+      "name": "distplyr",
+      "sameAs": "https://github.com/probaverse/distplyr"
+    },
+    "3": {
+      "@type": "SoftwareApplication",
+      "identifier": "famish",
+      "name": "famish",
+      "sameAs": "https://github.com/probaverse/famish"
+    },
+    "SystemRequirements": null
+  },
+  "fileSize": "3512.088KB",
+  "readme": "https://github.com/probaverse/probaverse/blob/master/README.md",
+  "contIntegration": ["https://github.com/probaverse/probaverse/actions/workflows/R-CMD-check.yaml", "https://app.codecov.io/gh/probaverse/probaverse"],
+  "developmentStatus": "https://lifecycle.r-lib.org/articles/stages.html#stable"
+}
