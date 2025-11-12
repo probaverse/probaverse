@@ -12,7 +12,11 @@ statistical models. Inspired by the 'tidyverse' package, the
 
 Useful links:
 
-- <https://probaverse.com/>
+- <https://probaverse.probaverse.com/>
+
+- <https://github.com/probaverse/probaverse>
+
+- <https://probaverse.github.io/probaverse/>
 
 ## Author
 
