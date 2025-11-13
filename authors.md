@@ -7,7 +7,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/probaverse/probaverse/blob/master/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/probaverse/probaverse/blob/main/DESCRIPTION)
 
 Coia V (2025). *probaverse: Install and Load the 'Probaverse' Packages*.
 R package version 0.0.0.9000, <https://probaverse.probaverse.com/>.
