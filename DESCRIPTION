@@ -1,6 +1,6 @@
 Package: probaverse
 Title: Install and Load the 'Probaverse' Packages
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: c(
     person("Vincenzo", "Coia", , "vincenzo.coia@gmail.com", 
            role = c("aut", "cre", "cph"))
@@ -23,7 +23,7 @@ Remotes:
     probaverse/distionary,
     probaverse/distplyr,
     probaverse/famish
-URL: https://probaverse.probaverse.com/, https://github.com/probaverse/probaverse, https://probaverse.github.io/probaverse/
+URL: https://probaverse.probaverse.com/, https://github.com/probaverse/probaverse
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
