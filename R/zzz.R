@@ -34,7 +34,13 @@
     character(1)
   )
 
-  header <- "──── Attaching core probaverse packages ──────────────\n"
+  rule <- function(text) {
+    width <- getOption("width")
+    line_length <- max(0, width - nchar(text) - 4L)
+    paste0("\u2500\u2500 ", text, " ", strrep("\u2500", line_length))
+  }
+
+  header <- paste0(rule("Attaching core probaverse packages"), "\n")
   name_width <- max(nchar(pkgs_to_attach)) + 2
   version_width <- max(nchar(pkg_versions)) + 2
   tick <- "\u2714"
