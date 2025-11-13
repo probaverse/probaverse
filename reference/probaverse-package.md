@@ -16,8 +16,6 @@ Useful links:
 
 - <https://github.com/probaverse/probaverse>
 
-- <https://probaverse.github.io/probaverse/>
-
 ## Author
 
 **Maintainer**: Vincenzo Coia <vincenzo.coia@gmail.com> \[copyright
