@@ -27,3 +27,4 @@ URL: https://probaverse.probaverse.com/, https://github.com/probaverse/probavers
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+BugReports: https://github.com/probaverse/probaverse/issues
