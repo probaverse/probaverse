@@ -6,6 +6,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Install and Load the Probaverse Packages • probaverse</title>
+<!-- favicons --><link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="”image/svg+xml”" href="favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" sizes="any" href="favicon.ico">
+<link rel="manifest" href="site.webmanifest">
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
@@ -51,42 +56,62 @@
 <img src="logo.png" class="logo" alt=""><h1 id="probaverse-">probaverse <a class="anchor" aria-label="anchor" href="#probaverse-"></a>
 </h1>
 </div>
-<p><a href="https://github.com/probaverse/probaverse/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/probaverse/probaverse/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a> <a href="https://app.codecov.io/gh/probaverse/probaverse" class="external-link"><img src="https://codecov.io/gh/probaverse/probaverse/graph/badge.svg" alt="Codecov test coverage"></a> <a href="https://lifecycle.r-lib.org/articles/stages.html#stable" class="external-link"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable"></a> <!-- badges: end --></p>
-<p>The probaverse is a suite of packages that facilitate working with probability distributions. Since they all work in harmony and are better when loaded together, the <code>probaverse</code> package exists for loading these packages.</p>
-<p>Loading <code>probaverse</code> is the best way to interact with the packages as many of the packages are under active development.</p>
+<!-- badges: start -->
+
+<p><code>probaverse</code> makes probability distributions routine data structures in R. Inspired by the cohesive design of the <a href="https://tidyverse.tidyverse.org/" class="external-link"><code>tidyverse</code></a>, it installs and attaches the core packages in the probaverse suite with a single <code><a href="https://rdrr.io/r/base/library.html" class="external-link">library()</a></code> call.</p>
 <div class="section level2">
-<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+<h2 id="target-audience">Target Audience<a class="anchor" aria-label="anchor" href="#target-audience"></a>
 </h2>
-<p>The <code>probaverse</code> package is not on CRAN yet. You can install the development version of probaverse like so:</p>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># install.packages("remotes") # Do you need to install `remotes`?</span></span>
-<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"probaverse/probaverse"</span><span class="op">)</span></span></code></pre></div>
+<p>The probaverse is designed for anyone who wants to work with probability distributions in R. It is particularly useful for data scientists, statisticians, and researchers who require the flexibility to develop advanced statistical models. Special focus is put on risk and hazard modelling, where distributions are heavily used in practice; therefore, those in fields such as finance, insurance, environmental science, and engineering may find the probaverse particularly appealing.</p>
 </div>
 <div class="section level2">
-<h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
+<h2 id="core-features">Core Features<a class="anchor" aria-label="anchor" href="#core-features"></a>
 </h2>
-<p><code>probaverse</code> will load:</p>
+<p>Advanced statistical models can rarely be achieved with out-of-the-box distributions typically found in probability textbooks. Instead, distributions need to be manipulated, combined, and refined to match specific benchmarks like data or expert judgement. They need to be evaluated in ways that are meaningful to your application. The probaverse packages work in harmony to provide a workbench for this process using a human-friendly interface.</p>
+<p>This workbench would be too vast and unweidly implemented as a single package. Instead, each concern is separated into separate packages.</p>
 <ul>
 <li>
-<a href="https://distionary.probaverse.com" class="external-link"><code>distionary</code></a>: create and evaluate probability distributiuns.</li>
+<a href="https://distionary.probaverse.com" class="external-link"><code>distionary</code></a> provides tools to defines and evaluate distributions by specifying properties that you know about the distribution.</li>
 <li>
-<a href="https://distplyr.probaverse.com" class="external-link"><code>distplyr</code></a>: manipulate probability distributions.</li>
+<a href="https://distplyr.probaverse.com" class="external-link"><code>distplyr</code></a> allows you to manipulate and combine distributions so that they can more realistically represent your system.</li>
 <li>
-<a href="https://famish.probaverse.com" class="external-link"><code>famish</code></a>: estimate probability distribution from data.</li>
+<a href="https://famish.probaverse.com" class="external-link"><code>famish</code></a> aims to ground distributions based on benchmarks, such as estimating distributions from data, or refining distributions to match expert judgement.</li>
 </ul>
 </div>
 <div class="section level2">
 <h2 id="future-goals">Future Goals<a class="anchor" aria-label="anchor" href="#future-goals"></a>
 </h2>
-<p>Eventually, <code>couple</code> will be added to the mix, too, for building dependence models with copulas.</p>
-<p><code>gristmill</code> will enable data-based probability distributions, expanding beyond the Empirical distribution made available through <code>distionary</code>.</p>
+<p>The probaverse has bigger long-term goals than what it’s currently capable of. Here are just a few of the longer term goals:</p>
+<ul>
+<li>Implementing multivariate distributions, especially through copulas (new <code>couple</code> package).</li>
+<li>Extending options for fitting non-parametric distributions (new <code>gristmill</code> package).</li>
+<li>Creating custom distribution <em>families</em> rather than just individual distributions.</li>
+<li>Improving support for distributions with discrete components.</li>
+</ul>
+<p>Additional features will be added as development continues. We appreciate your patience and welcome contributions! Please see the <a href="CONTRIBUTING.html">contributing guide</a> to get started.</p>
+</div>
+<div class="section level2">
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
+<p>Install <code>probaverse</code> from CRAN with:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"probaverse"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
 </h2>
-<p>Load the probaverse packages like so.</p>
+<p>Load every probaverse package with a single command:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://probaverse.probaverse.com/">probaverse</a></span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://probaverse.probaverse.com/">probaverse</a></span><span class="op">)</span></span>
+<span><span class="co">#&gt; ──── Attaching core probaverse packages ──────────────</span></span>
+<span><span class="co">#&gt; ✔ distionary   0.1.0        Create and Evaluate Probability Distributions</span></span>
+<span><span class="co">#&gt; ✔ distplyr     0.2.0        Manipulate and Combine Probability Distributions</span></span>
+<span><span class="co">#&gt; ✔ famish       0.1.0.9000   Flexibly Tune Families of Probability Distributions</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="acknowledgments">Acknowledgments<a class="anchor" aria-label="anchor" href="#acknowledgments"></a>
+</h2>
+<p>The creation of <code>probaverse</code> would not have been possible without the support of the R Consortium, BGC Engineering Inc., The University of British Columbia, the European Space Agency, the Politecnico di Milano, and the Natural Science and Engineering Research Council of Canada (NSERC). The authors would also like to thank the reviewers from ROpenSci for their insightful feedback in the core <code>distionary</code> package that powers the probaverse suite. Lastly, thanks to the developers of <code>tidyverse</code> for providing a model for cohesive design and appropriate structure of a meta-package.</p>
 </div>
 <div class="section level2">
 <h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
@@ -131,7 +156,14 @@
 </ul>
 </div>
 
-
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/probaverse/probaverse/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/probaverse/probaverse/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
+<li><a href="https://app.codecov.io/gh/probaverse/probaverse" class="external-link"><img src="https://codecov.io/gh/probaverse/probaverse/graph/badge.svg" alt="Codecov test coverage"></a></li>
+<li><a href="https://lifecycle.r-lib.org/articles/stages.html#stable" class="external-link"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable"></a></li>
+</ul>
+</div>
 
   </aside>
 </div>
