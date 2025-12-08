@@ -19,10 +19,6 @@ Imports:
     distionary,
     distplyr,
     famish
-Remotes: 
-    probaverse/distionary,
-    probaverse/distplyr,
-    probaverse/famish
 URL: https://probaverse.probaverse.com/, https://github.com/probaverse/probaverse
 Suggests: 
     testthat (>= 3.0.0)
