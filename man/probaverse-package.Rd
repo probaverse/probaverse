@@ -4,7 +4,7 @@
 \name{probaverse-package}
 \alias{probaverse}
 \alias{probaverse-package}
-\title{probaverse: Install and Load the 'Probaverse' Packages}
+\title{probaverse: Install and Load the 'probaverse' Packages}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
