@@ -9,7 +9,7 @@
 [![Codecov test
 coverage](https://codecov.io/gh/probaverse/probaverse/graph/badge.svg)](https://app.codecov.io/gh/probaverse/probaverse)
 [![Lifecycle:
-stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 ‘probaverse’ makes probability distributions routine data structures in
