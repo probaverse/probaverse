@@ -1,4 +1,4 @@
-# probaverse: Install and Load the 'Probaverse' Packages
+# probaverse: Install and Load the 'probaverse' Packages
 
 The 'probaverse' is a suite of packages designed to facilitate creating
 advanced statistical models through probability distributions. These
