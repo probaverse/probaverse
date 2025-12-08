@@ -1,14 +1,14 @@
-# Contributing to probaverse
+# Contributing to 'probaverse'
 
-Thank you for considering contributing to `probaverse`! This package
-and the probaverse more generally have ambitious goals, so your help
+Thank you for considering contributing to 'probaverse'! This package
+and the 'probaverse' more generally have ambitious goals, so your help
 is needed. This document 
 provides guidelines and instructions for contributing to the package.
 
 ## Code of Conduct
 
 Please note that this project is released with a 
-[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in 
+[Code of Conduct](https://probaverse.probaverse.com/code_of_conduct). By participating in 
 this project you agree to abide by its terms.
 
 ## How Can I Contribute?
@@ -59,7 +59,7 @@ We welcome pull requests! Here's the process:
 
 ## Coding Style
 
-`probaverse` follows the 
+'probaverse' follows the 
 [tidyverse style guide](https://style.tidyverse.org/). Key points:
 
 - Use `<-` for assignment, not `=`
