@@ -15,6 +15,7 @@ Useful links:
 \itemize{
   \item \url{https://probaverse.probaverse.com/}
   \item \url{https://github.com/probaverse/probaverse}
+  \item Report bugs at \url{https://github.com/probaverse/probaverse/issues}
 }
 
 }
