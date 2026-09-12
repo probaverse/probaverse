@@ -1,6 +1,6 @@
 Package: probaverse
 Title: Install and Load the 'probaverse' Packages
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person("Vincenzo", "Coia", , "vincenzo.coia@gmail.com", 
            role = c("aut", "cre", "cph"))
@@ -15,10 +15,10 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-Imports: 
-    distionary,
-    distplyr,
-    famish
+Imports:
+    distionary (>= 0.2.0),
+    distplyr (>= 0.3.0),
+    famish (>= 0.2.1)
 URL: https://probaverse.probaverse.com/, https://github.com/probaverse/probaverse
 Suggests: 
     testthat (>= 3.0.0)
