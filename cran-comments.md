@@ -7,8 +7,10 @@
   (>= 0.3.0) and famish (>= 0.2.1). Without them, installing probaverse into
   a library holding an older mix of the suite left that mix in place.
 
-Checked with `R CMD check --as-cran` locally (macOS, R 4.6.0) against those
-versions.
+## Test environments
+
+* local macOS, R 4.6.0 (`R CMD check --as-cran`, against those versions)
+* win-builder, R-devel
 
 ## Reverse dependencies
 
