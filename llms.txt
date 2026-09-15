@@ -45,6 +45,7 @@ package. Instead, each concern is separated into separate packages.
 Install ‘probaverse’ from CRAN with:
 
 ``` r
+
 install.packages("probaverse")
 ```
 
@@ -53,6 +54,7 @@ install.packages("probaverse")
 Load every ‘probaverse’ package with a single command:
 
 ``` r
+
 library(probaverse)
 #> ── Attaching core probaverse packages ──────────────────────────────────────────
 #> ✔ distionary   0.1.0   Create and Evaluate Probability Distributions
