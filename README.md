@@ -67,9 +67,9 @@ Load every ‘probaverse’ package with a single command:
 ``` r
 library(probaverse)
 #> ── Attaching core probaverse packages ──────────────────────────────────────────
-#> ✔ distionary   0.1.0   Create and Evaluate Probability Distributions
-#> ✔ distplyr     0.2.0   Manipulate and Combine Probability Distributions
-#> ✔ famish       0.2.0   Flexibly Tune Families of Probability Distributions
+#> ✔ distionary   0.2.0   Create and Evaluate Probability Distributions
+#> ✔ distplyr     0.3.0   Manipulate and Combine Probability Distributions
+#> ✔ famish       0.2.1   Flexibly Tune Families of Probability Distributions
 ```
 
 ## Future Goals
